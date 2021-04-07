@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LCCTools_Example' do
+  pod 'LCCTools', :path => '../'
+
+  target 'LCCTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
