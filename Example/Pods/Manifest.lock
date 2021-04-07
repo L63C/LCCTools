@@ -1,0 +1,16 @@
+PODS:
+  - LCCTools (0.1.0)
+
+DEPENDENCIES:
+  - LCCTools (from `../`)
+
+EXTERNAL SOURCES:
+  LCCTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCCTools: b2e0fd10ebcedad3caaa9cd73904ee5dbdbf9b94
+
+PODFILE CHECKSUM: 8f19c83380f8113380dfa8a30a5632d56b69d4ef
+
+COCOAPODS: 1.10.1

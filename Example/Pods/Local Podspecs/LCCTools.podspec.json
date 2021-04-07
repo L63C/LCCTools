@@ -1,0 +1,22 @@
+{
+  "name": "LCCTools",
+  "version": "0.1.0",
+  "summary": "A short description of LCCTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lu63chuan/LCCTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lu63chuan": "lu63chuan@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lu63chuan/LCCTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LCCTools/Classes/**/*"
+}
