@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0908EF356C8C31DF57E62DB360F1FFB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1248CC8DE978AE7F162FDD2D46251420 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5FB01B47C43ACC1A26C5ECAFD30A20 /* ReplaceMe.swift */; };
-		45325988C2EA2CAB4DE0400FD95EF24F /* LCCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F80B2C65A837B165B2CAD118EA0527 /* LCCTools-dummy.m */; };
+		4C59C225887DA99D5955CA4645294CB5 /* NSObject+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D76F43B3F899933CD19D16C3723688 /* NSObject+Tools.swift */; };
+		5A07CE32BC2779B5C71977DFD1218272 /* UIWindow+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E53A448CFCD4223EB962199A2B56B5 /* UIWindow+Tools.swift */; };
 		61DA1DC22AC440506B5D6C4589A5448E /* Pods-LCCTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E68E3336DEB7BC11842E5B24D82CC2B /* Pods-LCCTools_Example-dummy.m */; };
+		65A7CA2B385E49732647281FD69C28D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6BD3AFFC5CC425289D7FB446CD771145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7467FB9C105D7A8546E4C50741617AD2 /* LCCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5023CE340D7ADB65B83BFD05A1ABB8 /* LCCTools-dummy.m */; };
 		8448BC6A670B7BA768CF90D717093057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6DA16E7ED8F08C279E4689F0FC71DAB /* UIView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55098FA24392E15013976EBAF459202E /* UIView+Tools.swift */; };
 		B0BA5776A9B680A064191EDFAEDA98DA /* Pods-LCCTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C3B29F3D0AC0B010C0E6285FE29FF6 /* Pods-LCCTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D071254F34BC2E52644B37835B1987 /* LCCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD4D7FCD469F8F422B070D1C2768003 /* LCCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC5EECA2EAD04FFD958095AD76ECB482 /* LCCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67092719DC38DB6B687C46B3C76CEBE2 /* LCCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3878301F04BA03EF50A8EE2C49F2617 /* UIColor+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3C1276B6239F72CD45870D63601C4 /* UIColor+Tools.swift */; };
 		D3372BB0A070B62C1DAF820591AB018F /* Pods-LCCTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BFC03B216B2CDBEAA592CC578F2D6A /* Pods-LCCTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D58120110CF978F70D46A722F53F28DF /* Pods-LCCTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DD7CDA9FEAE0C3D3F8F6FE645006E5 /* Pods-LCCTools_Tests-dummy.m */; };
+		F02B00DC86CEE77FC651DA52308DDB2F /* UITableView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E192865C8273BD82F59107A3E1891A5 /* UITableView+Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5725F6AC96230FAD7185157DDA0E4AED /* PBXContainerItemProxy */ = {
+		56FD734848F6E1ABE6069D19FB6A8D4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B93A522566140D7438988265F3EAABBD;
 			remoteInfo = "Pods-LCCTools_Example";
 		};
-		770C83506ABFC63A959DF48FA3A8C9ED /* PBXContainerItemProxy */ = {
+		D1F204B19BE017E465FE501B62624663 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,52 +44,56 @@
 		03BFC03B216B2CDBEAA592CC578F2D6A /* Pods-LCCTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		03C3B29F3D0AC0B010C0E6285FE29FF6 /* Pods-LCCTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0484EB8EE22F4B56F3A58C57B47116A9 /* Pods-LCCTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10610EEDCD3E9308645EC584CF883CC9 /* LCCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCTools.release.xcconfig; sourceTree = "<group>"; };
 		144B598E6F780C419D49D007A8D35EFA /* Pods-LCCTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E68E3336DEB7BC11842E5B24D82CC2B /* Pods-LCCTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCTools_Example-dummy.m"; sourceTree = "<group>"; };
 		2196B5E14046CBDB8CC2370D29E36FA9 /* Pods-LCCTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		21D3ADA8BDC2E5B18C6DFFD7578572F5 /* LCCTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCTools.debug.xcconfig; sourceTree = "<group>"; };
 		234DDA41E34264891E05DA6B541244C2 /* Pods-LCCTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCCTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		23DD7CDA9FEAE0C3D3F8F6FE645006E5 /* Pods-LCCTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		38EC4F0CC1A0620ED6163F6D58BA81F4 /* LCCTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCTools-prefix.pch"; sourceTree = "<group>"; };
-		4B5D166CD0F6F9550CF98B7341CD395C /* LCCTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCCTools-Info.plist"; sourceTree = "<group>"; };
+		255C88B7E1735C02B5BFA4A6E9C568A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E192865C8273BD82F59107A3E1891A5 /* UITableView+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Tools.swift"; path = "LCCTools/Classes/UITableView+Tools.swift"; sourceTree = "<group>"; };
+		3D5023CE340D7ADB65B83BFD05A1ABB8 /* LCCTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCCTools-dummy.m"; sourceTree = "<group>"; };
+		47D84C9436AE45D9F2AFD6B20635278A /* LCCTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCCTools-Info.plist"; sourceTree = "<group>"; };
 		508D2EA70F2614760C5805CF5B0C95C1 /* Pods-LCCTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55098FA24392E15013976EBAF459202E /* UIView+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Tools.swift"; path = "LCCTools/Classes/UIView+Tools.swift"; sourceTree = "<group>"; };
+		5EF3C1276B6239F72CD45870D63601C4 /* UIColor+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Tools.swift"; path = "LCCTools/Classes/UIColor+Tools.swift"; sourceTree = "<group>"; };
 		622414EDB378DDDE2D4B9D1144A55A30 /* Pods_LCCTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCCTools_Example.framework; path = "Pods-LCCTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		630AF21E0F725265FD3646399EDD3F3B /* LCCTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCCTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		63B816E1E3B69AA1C1016F9B7A20C171 /* LCCTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCCTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67092719DC38DB6B687C46B3C76CEBE2 /* LCCTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCTools-umbrella.h"; sourceTree = "<group>"; };
 		672D861F28B86F01B0D35F12C7C5A6E4 /* Pods-LCCTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		6D0D999E5009ACDE55671FBF329E5AAE /* Pods_LCCTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCCTools_Tests.framework; path = "Pods-LCCTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DAFB2511410BB666E2FD704D306DFD3 /* Pods-LCCTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCTools_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75840114E40026D0FCAEC44C425A23DB /* LCCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCTools.release.xcconfig; sourceTree = "<group>"; };
 		788ABB9AE282007B9A30BBD4BCD16F09 /* Pods-LCCTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B0C5B29E74A20F2761D27040B837218 /* LCCTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCCTools.modulemap; sourceTree = "<group>"; };
-		86DDB0D69F2E9386D22A69E9D785CE6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C1F76B03064EDFB3F0A76F1FF745775 /* LCCTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCTools-prefix.pch"; sourceTree = "<group>"; };
+		93D76F43B3F899933CD19D16C3723688 /* NSObject+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Tools.swift"; path = "LCCTools/Classes/NSObject+Tools.swift"; sourceTree = "<group>"; };
+		94E53A448CFCD4223EB962199A2B56B5 /* UIWindow+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+Tools.swift"; path = "LCCTools/Classes/UIWindow+Tools.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD4D7FCD469F8F422B070D1C2768003 /* LCCTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCTools-umbrella.h"; sourceTree = "<group>"; };
 		A6E0789DA12D0FE0728D405593E0F508 /* Pods-LCCTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCTools_Tests.modulemap"; sourceTree = "<group>"; };
+		B0CEBADFDAA30A0C3A2CB5576EEB8710 /* LCCTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCCTools.modulemap; sourceTree = "<group>"; };
 		D3482111CE819F3E728ED4D90224ADAD /* Pods-LCCTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCTools_Example.modulemap"; sourceTree = "<group>"; };
 		E1A2A1534D7BEA613891B1F4B7F23496 /* Pods-LCCTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E9FA3AC384A9CED6206A60BB17DFB100 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EA5FB01B47C43ACC1A26C5ECAFD30A20 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LCCTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		ED37C7B09A093A343F67031EFAEE7B0D /* Pods-LCCTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EEB619DBCE8EE7B2A261AC189028C732 /* Pods-LCCTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F2FF9DA515C5089D9C0BADFD51EDA4A6 /* LCCTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCCTools.framework; path = LCCTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9F80B2C65A837B165B2CAD118EA0527 /* LCCTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCCTools-dummy.m"; sourceTree = "<group>"; };
+		FC6F8B5E205A18262AF7C85D2E531E42 /* LCCTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCTools.debug.xcconfig; sourceTree = "<group>"; };
+		FEC68FC616A04A37A4D5FA444FC2C14C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1DBEF709307AA43838EEB555AAEE7E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A7CA2B385E49732647281FD69C28D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B79AA3E8E8F51C4EF71A4E0F789B39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6BD3AFFC5CC425289D7FB446CD771145 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		543DE20A7486934BDE4C71B841604F4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0908EF356C8C31DF57E62DB360F1FFB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,14 +117,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2971D0EF957C32D0D3A6B3A5C6E4B862 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				88E440C496729287A0903B880D4D9D3D /* LCCTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		50ACAD428A725AE689E32AA7F3744715 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,16 +127,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54D415A2DC0EAC8F2F3C4767C2CEEF9C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				630AF21E0F725265FD3646399EDD3F3B /* LCCTools.podspec */,
-				86DDB0D69F2E9386D22A69E9D785CE6B /* LICENSE */,
-				E9FA3AC384A9CED6206A60BB17DFB100 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,15 +135,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		88E440C496729287A0903B880D4D9D3D /* LCCTools */ = {
+		6617EE7FE14B171FDC928C6220BF8368 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA5FB01B47C43ACC1A26C5ECAFD30A20 /* ReplaceMe.swift */,
-				54D415A2DC0EAC8F2F3C4767C2CEEF9C /* Pod */,
-				DF9A80412E6958C914ED5AB47114E2BA /* Support Files */,
+				B0CEBADFDAA30A0C3A2CB5576EEB8710 /* LCCTools.modulemap */,
+				3D5023CE340D7ADB65B83BFD05A1ABB8 /* LCCTools-dummy.m */,
+				47D84C9436AE45D9F2AFD6B20635278A /* LCCTools-Info.plist */,
+				7C1F76B03064EDFB3F0A76F1FF745775 /* LCCTools-prefix.pch */,
+				67092719DC38DB6B687C46B3C76CEBE2 /* LCCTools-umbrella.h */,
+				FC6F8B5E205A18262AF7C85D2E531E42 /* LCCTools.debug.xcconfig */,
+				10610EEDCD3E9308645EC584CF883CC9 /* LCCTools.release.xcconfig */,
 			);
-			name = LCCTools;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCCTools";
 			sourceTree = "<group>";
 		};
 		89E2D92730E07F759CAB0D925328F43F /* Pods-LCCTools_Tests */ = {
@@ -170,6 +164,39 @@
 			);
 			name = "Pods-LCCTools_Tests";
 			path = "Target Support Files/Pods-LCCTools_Tests";
+			sourceTree = "<group>";
+		};
+		8D34B24F5F8CA27793D2E20F8927C777 /* LCCTools */ = {
+			isa = PBXGroup;
+			children = (
+				93D76F43B3F899933CD19D16C3723688 /* NSObject+Tools.swift */,
+				5EF3C1276B6239F72CD45870D63601C4 /* UIColor+Tools.swift */,
+				2E192865C8273BD82F59107A3E1891A5 /* UITableView+Tools.swift */,
+				55098FA24392E15013976EBAF459202E /* UIView+Tools.swift */,
+				94E53A448CFCD4223EB962199A2B56B5 /* UIWindow+Tools.swift */,
+				AEF797DBEA5FCA61FAB4A25F6E931EC2 /* Pod */,
+				6617EE7FE14B171FDC928C6220BF8368 /* Support Files */,
+			);
+			name = LCCTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AEF797DBEA5FCA61FAB4A25F6E931EC2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				63B816E1E3B69AA1C1016F9B7A20C171 /* LCCTools.podspec */,
+				255C88B7E1735C02B5BFA4A6E9C568A1 /* LICENSE */,
+				FEC68FC616A04A37A4D5FA444FC2C14C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B0DC2879AD0085D9DFE8CC1447F770CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D34B24F5F8CA27793D2E20F8927C777 /* LCCTools */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C803FB3FD1C29EC6C6AE62586289FC12 /* Pods-LCCTools_Example */ = {
@@ -193,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2971D0EF957C32D0D3A6B3A5C6E4B862 /* Development Pods */,
+				B0DC2879AD0085D9DFE8CC1447F770CD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				50ACAD428A725AE689E32AA7F3744715 /* Products */,
 				0C97D5363FFC13F0FDE814174E9BB5C7 /* Targets Support Files */,
@@ -208,32 +235,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF9A80412E6958C914ED5AB47114E2BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B0C5B29E74A20F2761D27040B837218 /* LCCTools.modulemap */,
-				F9F80B2C65A837B165B2CAD118EA0527 /* LCCTools-dummy.m */,
-				4B5D166CD0F6F9550CF98B7341CD395C /* LCCTools-Info.plist */,
-				38EC4F0CC1A0620ED6163F6D58BA81F4 /* LCCTools-prefix.pch */,
-				9DD4D7FCD469F8F422B070D1C2768003 /* LCCTools-umbrella.h */,
-				21D3ADA8BDC2E5B18C6DFFD7578572F5 /* LCCTools.debug.xcconfig */,
-				75840114E40026D0FCAEC44C425A23DB /* LCCTools.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LCCTools";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		090A59CF6A493C754C0BCD90A84DA01C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8D071254F34BC2E52644B37835B1987 /* LCCTools-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B6B361C9501EB3F3531B941FD68EAEC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3372BB0A070B62C1DAF820591AB018F /* Pods-LCCTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58048E1D82CE311124A8C565E72E628 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5EECA2EAD04FFD958095AD76ECB482 /* LCCTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +277,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				64C56CBDD7396D13810464A25E5E05A5 /* PBXTargetDependency */,
+				2FB660ECD9B515DD5F51759DE4EB5ED3 /* PBXTargetDependency */,
 			);
 			name = "Pods-LCCTools_Example";
 			productName = "Pods-LCCTools_Example";
@@ -284,7 +296,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				14BDB35BC3D177DF6B6A5481416FFA40 /* PBXTargetDependency */,
+				4CEA977384D0E28B02A3A1D295864B61 /* PBXTargetDependency */,
 			);
 			name = "Pods-LCCTools_Tests";
 			productName = "Pods-LCCTools_Tests";
@@ -293,12 +305,12 @@
 		};
 		C8F883661DF90CC1D342D528249CD0EE /* LCCTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7DA1CBF2EF3D7725777B814392E7883 /* Build configuration list for PBXNativeTarget "LCCTools" */;
+			buildConfigurationList = 347A3E499C81E8E7B8E224D037AA9131 /* Build configuration list for PBXNativeTarget "LCCTools" */;
 			buildPhases = (
-				090A59CF6A493C754C0BCD90A84DA01C /* Headers */,
-				553B021619B60179AF3A9778FC06F260 /* Sources */,
-				543DE20A7486934BDE4C71B841604F4D /* Frameworks */,
-				9C3CAFC26F911B9D94D52E045FEA04C3 /* Resources */,
+				F58048E1D82CE311124A8C565E72E628 /* Headers */,
+				49ADF9C0366146E61B424275569C4280 /* Sources */,
+				1DBEF709307AA43838EEB555AAEE7E06 /* Frameworks */,
+				6670286AC03E15F3A8C84264CBC515F2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C3CAFC26F911B9D94D52E045FEA04C3 /* Resources */ = {
+		6670286AC03E15F3A8C84264CBC515F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +375,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		553B021619B60179AF3A9778FC06F260 /* Sources */ = {
+		49ADF9C0366146E61B424275569C4280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45325988C2EA2CAB4DE0400FD95EF24F /* LCCTools-dummy.m in Sources */,
-				1248CC8DE978AE7F162FDD2D46251420 /* ReplaceMe.swift in Sources */,
+				7467FB9C105D7A8546E4C50741617AD2 /* LCCTools-dummy.m in Sources */,
+				4C59C225887DA99D5955CA4645294CB5 /* NSObject+Tools.swift in Sources */,
+				C3878301F04BA03EF50A8EE2C49F2617 /* UIColor+Tools.swift in Sources */,
+				F02B00DC86CEE77FC651DA52308DDB2F /* UITableView+Tools.swift in Sources */,
+				A6DA16E7ED8F08C279E4689F0FC71DAB /* UIView+Tools.swift in Sources */,
+				5A07CE32BC2779B5C71977DFD1218272 /* UIWindow+Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +407,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14BDB35BC3D177DF6B6A5481416FFA40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LCCTools_Example";
-			target = B93A522566140D7438988265F3EAABBD /* Pods-LCCTools_Example */;
-			targetProxy = 5725F6AC96230FAD7185157DDA0E4AED /* PBXContainerItemProxy */;
-		};
-		64C56CBDD7396D13810464A25E5E05A5 /* PBXTargetDependency */ = {
+		2FB660ECD9B515DD5F51759DE4EB5ED3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LCCTools;
 			target = C8F883661DF90CC1D342D528249CD0EE /* LCCTools */;
-			targetProxy = 770C83506ABFC63A959DF48FA3A8C9ED /* PBXContainerItemProxy */;
+			targetProxy = D1F204B19BE017E465FE501B62624663 /* PBXContainerItemProxy */;
+		};
+		4CEA977384D0E28B02A3A1D295864B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LCCTools_Example";
+			target = B93A522566140D7438988265F3EAABBD /* Pods-LCCTools_Example */;
+			targetProxy = 56FD734848F6E1ABE6069D19FB6A8D4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,9 +520,9 @@
 			};
 			name = Debug;
 		};
-		291D5EFCF2D79336497C0ED3404B88B8 /* Debug */ = {
+		43AC90CF20F615E249FE1FE3091ECB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21D3ADA8BDC2E5B18C6DFFD7578572F5 /* LCCTools.debug.xcconfig */;
+			baseConfigurationReference = FC6F8B5E205A18262AF7C85D2E531E42 /* LCCTools.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -600,9 +616,9 @@
 			};
 			name = Release;
 		};
-		9D198D555C956DF9F3E61D7492492CCC /* Release */ = {
+		B420EE944450D2AE95ECEC3E42E53D14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75840114E40026D0FCAEC44C425A23DB /* LCCTools.release.xcconfig */;
+			baseConfigurationReference = 10610EEDCD3E9308645EC584CF883CC9 /* LCCTools.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -728,6 +744,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		347A3E499C81E8E7B8E224D037AA9131 /* Build configuration list for PBXNativeTarget "LCCTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC90CF20F615E249FE1FE3091ECB74 /* Debug */,
+				B420EE944450D2AE95ECEC3E42E53D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -751,15 +776,6 @@
 			buildConfigurations = (
 				FF9224111AA7718EBB195A3FA8561E75 /* Debug */,
 				6801F9847243325226655BC224B78B12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E7DA1CBF2EF3D7725777B814392E7883 /* Build configuration list for PBXNativeTarget "LCCTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				291D5EFCF2D79336497C0ED3404B88B8 /* Debug */,
-				9D198D555C956DF9F3E61D7492492CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
