@@ -9,7 +9,7 @@ import Foundation
 
 private var kPerformOnceKey: Void?
 
-extension NSObject{
+@objc extension NSObject{
     
     public var performOnceFlag:Bool{
         get{
@@ -20,19 +20,29 @@ extension NSObject{
         }
     }
     
-    @objc public func performOnce(aselector :Selector){
+    public func performOnce(aselector :Selector){
         if performOnceFlag {
             return
         }
         performOnceFlag = true
         perform(aselector)
     }
-    @objc public func performOnceBlock(aselector:() -> Void){
+    public func performOnceBlock(aselector:() -> Void){
         if performOnceFlag {
             return
         }
         performOnceFlag = true
         aselector()
         
+    }
+}
+
+extension NSObject: LCCompatible {}
+extension LC where Base == NSObject {
+    public func performOnce(aselector :Selector) {
+        base.performOnce(aselector: aselector)
+    }
+    public func performOnceBlock(aselector:() -> Void) {
+        base.performOnceBlock(aselector: aselector)
     }
 }

@@ -8,46 +8,56 @@
 import Foundation
 import UIKit
 
-extension UIWindow{
+@objc extension UIWindow {
     /// 获取状态栏高度
-   @objc public static func statusBarHeight() -> CGFloat {
-        var height:CGFloat
-        if #available(iOS 13.0,*){
+    public static func statusBarHeight() -> CGFloat {
+        var height: CGFloat
+        if #available(iOS 13.0,*) {
             height = UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height ?? 0
-        }else{
+        } else {
             height = UIApplication.shared.statusBarFrame.height
         }
-       return height
+        return height
     }
-    @objc public static func currentViewController() -> UIViewController{
-        let vc = UIApplication.shared.keyWindow?.rootViewController;
+
+    public static func currentViewController() -> UIViewController {
+        let vc = UIApplication.shared.keyWindow?.rootViewController
         if let presentedVC = vc?.presentedViewController {
-            if presentedVC is UINavigationController{
+            if presentedVC is UINavigationController {
                 return (presentedVC as! UINavigationController).visibleViewController!
-            }else if presentedVC is UITabBarController{
+            } else if presentedVC is UITabBarController {
                 let tabVC = presentedVC as! UITabBarController
-                if tabVC.selectedViewController is UINavigationController{
+                if tabVC.selectedViewController is UINavigationController {
                     return (tabVC.selectedViewController as! UINavigationController).visibleViewController!
-                }else{
+                } else {
                     return tabVC.selectedViewController!
                 }
-            }else{
+            } else {
                 return presentedVC
             }
-        }else{
-            if vc is UINavigationController{
+        } else {
+            if vc is UINavigationController {
                 return (vc as! UINavigationController).visibleViewController!
-            }else if vc is UITabBarController{
+            } else if vc is UITabBarController {
                 let tabVC = vc as! UITabBarController
-                if tabVC.selectedViewController is UINavigationController{
+                if tabVC.selectedViewController is UINavigationController {
                     return (tabVC.selectedViewController as! UINavigationController).visibleViewController!
-                }else{
+                } else {
                     return tabVC.selectedViewController!
                 }
-            }else{
+            } else {
                 return vc!
             }
         }
     }
-    
+}
+
+
+extension LC where Base == UIWindow {
+    public static func statusBarHeight() -> CGFloat {
+        Base.statusBarHeight()
+    }
+    public static func currentViewController() -> UIViewController {
+        Base.currentViewController()
+    }
 }

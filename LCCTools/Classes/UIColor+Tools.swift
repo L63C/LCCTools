@@ -8,8 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIColor {
-    
+@objc extension UIColor {
     public convenience init(hexString: String,alpha:Float) {
         let hexString = hexString.trimmingCharacters(in: .whitespacesAndNewlines)
         let scanner = Scanner(string: hexString)
@@ -73,4 +72,24 @@ extension UIColor {
         let color: UIColor = UIColor(red: (CGFloat)(arc4random() % 256) / 255.0, green: (CGFloat)(arc4random() % 256) / 255.0, blue: (CGFloat)(arc4random() % 256) / 255.0, alpha: 1.0)
         return color
     }
+}
+
+
+
+
+//extension UIColor: LCCompatible {}
+extension LC where Base == UIColor {
+   public static func color(hexString: String,alpha:Float) -> UIColor {
+        Base.init(hexString: hexString, alpha: alpha)
+    }
+    public static func color(hexString: String) -> UIColor {
+        self.color(hexString: hexString, alpha: 1)
+    }
+    public func hexString() -> String? {
+        base.hexString
+    }
+    public func randomColor() -> UIColor {
+        Base.randomColor()
+    }
+    
 }

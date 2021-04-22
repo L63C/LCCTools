@@ -24,3 +24,13 @@ import UIKit
         self.setContentOffset(CGPoint.init(x: 0, y: lc_getoffsetX()), animated: animated)
     }
 }
+
+
+extension LC where Base == UITableView {
+    public func getoffsetX() -> CGFloat {
+        base.lc_getoffsetX()
+    }
+    public func scrollToTop(animated:Bool) {
+        base.lc_scrollToTop(animated: animated)
+    }
+}

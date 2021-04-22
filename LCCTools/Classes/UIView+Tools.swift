@@ -8,8 +8,8 @@
 import Foundation
 import UIKit
 /// 延时相关
-extension UIView{
-  @objc public func addSubviewsRandomColors() {
+@objc  extension UIView{
+ public func addSubviewsRandomColors() {
         self.backgroundColor = randomColor()
         if self.subviews.count > 0{
             for subview in self.subviews {
@@ -18,7 +18,7 @@ extension UIView{
             }
         }
     }
-    @objc func randomColor() -> UIColor {
+    func randomColor() -> UIColor {
         UIColor.init(red: CGFloat(arc4random()%256)/255.0, green: CGFloat(arc4random()%256)/255.0, blue: CGFloat(arc4random()%256)/255.0, alpha: 1);
     }
     
@@ -64,4 +64,20 @@ extension UIView {
             return nil
         }
     }
+}
+
+extension LC where Base == UIView {
+    public func addSubviewsRandomColors() {
+        base.addSubviewsRandomColors()
+    }
+    var viewController: UIViewController? {
+        get{ base.viewController }
+    }
+    var navController: UINavigationController? {
+        get { base.navController }
+    }
+    var tabBarController: UITabBarController? {
+        get { base.tabBarController }
+    }
+    
 }
