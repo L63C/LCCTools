@@ -1,5 +1,5 @@
 PODS:
-  - LCCTools (0.1.0)
+  - LCCTools (0.1.1)
 
 DEPENDENCIES:
   - LCCTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LCCTools: 07dcc388afd99880779f0bec19625f97233abfc2
+  LCCTools: f7ba4e5ac7ecf51e447a8457d913d172e63a69c1
 
 PODFILE CHECKSUM: 8f19c83380f8113380dfa8a30a5632d56b69d4ef
 
