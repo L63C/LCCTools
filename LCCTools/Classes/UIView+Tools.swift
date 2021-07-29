@@ -70,14 +70,27 @@ extension LC where Base == UIView {
     public func addSubviewsRandomColors() {
         base.addSubviewsRandomColors()
     }
-    var viewController: UIViewController? {
+    public var viewController: UIViewController? {
         get{ base.viewController }
     }
-    var navController: UINavigationController? {
+    public var navController: UINavigationController? {
         get { base.navController }
     }
-    var tabBarController: UITabBarController? {
+   public var tabBarController: UITabBarController? {
         get { base.tabBarController }
     }
-    
+    /// 部分圆角
+    ///
+    /// - Parameters:
+    ///   - corners: 需要实现为圆角的角，可传入多个
+    ///   - radii: 圆角半径
+   public func corner(byRoundingCorners corners: UIRectCorner, radii: CGFloat) {
+        let maskPath = UIBezierPath(roundedRect: base.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radii, height: radii))
+        let maskLayer = CAShapeLayer()
+        maskLayer.frame = base.bounds
+        maskLayer.path = maskPath.cgPath
+        base.layer.mask = maskLayer
+    }
+
+
 }
